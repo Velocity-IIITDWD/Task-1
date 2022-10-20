@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:wght@500&family=Ubuntu:wght@300&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  font-family: 'Poppins';
+}
+
+.landing {
+  min-height: 100vh;
+  background: url('./hero.jpg');
+  background-size: cover;
+  padding: 0rem 5rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  padding-left: 10rem;
+  font-size: 1.2rem;
+}
+
+#logo {
+  font-family: 'Ubuntu';
+  font-weight: lighter;
+  font-size: 2rem;
+}
+
+.big-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Lato';
+  color: #333;
+  font-size: 3rem;
+}
+
+.hide {
+  background-color: black;
+  overflow: hidden;
+}
+
+.hide span {
+  transform: translateY(100%);
+  display: inline-block;
+}
+
+.intro {
+  background: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.intro .text {
+  color: rgb(191, 208, 223);
+  font-family: 'ubuntu';
+  font-size: 3rem;
+  line-height: 4rem;
+}
+
+
+.slider {
+  background: rgb(145, 223, 225);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+}
