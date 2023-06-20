@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    font-family: 'Times New Roman', Times, serif;
+}
+.landing{
+    min-height: 100vh;
+    background: url('./img.jpg');
+    background-size: cover;
+    padding: 0rem 5rem;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 10vh;
+}
+
+.nav_links{
+    display: flex;
+    list-style: none;
+
+}
+
+.nav_links li{
+    padding-left: 10rem;
+font-size: 1.2rem;
+
+}
+
+#logo{
+    font-family: 'Dancing Script', cursive;    font-weight: lighter;
+    font-size: 2rem;
+}
+
+.big_text{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+font-size: 5rem;
+font-family: 'Dancing Script', cursive;
+color: rgb(61,61,61);
+transform: translate(-150px, -30px);
+}
+
+.intro{
+    background: black;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.slider{
+    background: rgb(226, 183, 239);
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+transform: translateY(100%);
+
+
+}
+
+.intro_text{
+    color: rgb(234, 174, 235);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.4rem;
+}
+
+.hide{
+    background: black;
+    overflow: hidden;
+    
+}
+.hide span{
+    display: inline-block;
+    transform: translateY(100%);
+}
